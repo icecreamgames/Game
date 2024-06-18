@@ -65,7 +65,7 @@ p {
 <style>
   .donate-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 5px 10px; /* Adjust padding as needed */
     background-color: #00FFFB;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -73,9 +73,10 @@ p {
     color: #333;
     font-weight: bold;
     cursor: pointer;
-    /* Added properties for size */
-    width: 300px;
-    height: 50px;
+    width: 300px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    text-overflow: ellipsis; /* Consider using this if needed */
+    white-space: nowrap; /* Consider using this if needed */
   }
 
   .donate-button:hover {
@@ -83,6 +84,7 @@ p {
   }
 </style>
 
+  
   <p>Please let me know what you think of my projects.</p>
 
   <form name="contact" netlify>
